@@ -4,7 +4,7 @@ import styles from "./ProjectCard.module.css";
 import { getImageUrl } from "../../utils";
 
 export const ProjectCard = ({
-  project: { title, imageSrc, description, skills, demo, source },
+  project: { title, imageSrc, description, materials, details, inquiry },
 }) => {
   return (
     <div className={styles.container}>
@@ -15,21 +15,21 @@ export const ProjectCard = ({
       />
       <h3 className={styles.title}>{title}</h3>
       <p className={styles.description}>{description}</p>
-      <ul className={styles.skills}>
-        {skills.map((skill, id) => {
+      <ul className={styles.materials}>
+        {materials.map((material, id) => {
           return (
-            <li key={id} className={styles.skill}>
-              {skill}
+            <li key={id} className={styles.material}>
+              {material}
             </li>
           );
         })}
       </ul>
       <div className={styles.links}>
-        <a href={demo} className={styles.link}>
-          Demo
+        <a href={details} className={styles.link}>
+          View Details
         </a>
-        <a href={source} className={styles.link}>
-          Source
+        <a href={inquiry} className={styles.link}>
+          Make an Inquiry
         </a>
       </div>
     </div>

@@ -1,29 +1,24 @@
 [
   {
-    "role": "Software Engineer",
-    "organisation": "Google",
-    "startDate": "Sept, 2022",
-    "endDate": "Present",
-    "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-    "imageSrc": "history/google.png"
+    "projectName": "High-Rise Construction Welding",
+    "startDate": "Jan 2021",
+    "endDate": "Dec 2022",
+    "imageSrc": "welding/highRiseConstruction.png",
+    "highlights": [
+      "Delivered precision welding for structural integrity.",
+      "Ensured safety and compliance with industry standards.",
+      "Completed on time and within budget."
+    ]
   },
   {
-    "role": "UI Designer",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2021",
-    "endDate": "Aug, 2022",
-    "experiences": ["Worked on Windows 11", "Designed the control panel"],
-    "imageSrc": "history/microsoft.png"
-  },
-  {
-    "role": "SWE Intern",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2020",
-    "endDate": "Jun, 2020",
-    "experiences": [
-      "Worked on component library",
-      "Helped create UI components"
-    ],
-    "imageSrc": "history/netflix.png"
+    "projectName": "Custom Metal Fabrication",
+    "startDate": "Mar 2020",
+    "endDate": "Sep 2021",
+    "imageSrc": "welding/customMetalFabrication.png",
+    "highlights": [
+      "Designed and fabricated custom metal pieces for clients.",
+      "Delivered exceptional craftsmanship and durability.",
+      "Gained repeat business from satisfied customers."
+    ]
   }
 ]

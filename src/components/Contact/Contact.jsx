@@ -7,24 +7,22 @@ export const Contact = () => {
   return (
     <footer id="contact" className={styles.container}>
       <div className={styles.text}>
-        <h2>Contact</h2>
-        <p>Feel free to reach out!</p>
+        <h2>Contact Us</h2>
+        <p>
+          We’re here to assist you with all your welding needs. Reach out to us
+          today!
+        </p>
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
           <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
-          <a href="mailto:myemail@email.com">myemail@email.com</a>
+          <a href="mailto:contact@elegantwelders.com">
+            contact@elegantwelders.com
+          </a>
         </li>
         <li className={styles.link}>
-          <img
-            src={getImageUrl("contact/linkedinIcon.png")}
-            alt="LinkedIn icon"
-          />
-          <a href="https://www.linkedin.com/myname">linkedin.com/myname</a>
-        </li>
-        <li className={styles.link}>
-          <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
-          <a href="https://www.github.com/myname">github.com/myname</a>
+          <img src={getImageUrl("contact/phoneIcon.png")} alt="Phone icon" />
+          <a href="tel:+25480425328">+254 804 25328</a>
         </li>
       </ul>
     </footer>

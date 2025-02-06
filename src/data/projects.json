@@ -1,26 +1,18 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Custom Metal Gate",
+    "imageSrc": "projects/metalGate.png",
+    "description": "A custom-designed wrought iron gate for a luxury villa.",
+    "materials": ["Wrought Iron", "Powder Coating", "Laser Cutting"],
+    "details": "/projects/metal-gate",
+    "inquiry": "/contact"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Industrial Piping",
+    "imageSrc": "projects/industrialWelding.png",
+    "description": "Heavy-duty welding for an industrial piping system.",
+    "materials": ["Stainless Steel", "Arc Welding", "Heat Treatment"],
+    "details": "/projects/industrial-welding",
+    "inquiry": "/contact"
   }
 ]
