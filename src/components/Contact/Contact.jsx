@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "./Contact.module.css";
-import { getImageUrl } from "../../utils";
+import { FaEnvelope, FaPhone } from "react-icons/fa";
 
 export const Contact = () => {
   return (
@@ -15,13 +15,13 @@ export const Contact = () => {
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
+          <FaEnvelope className={styles.icon} />
           <a href="mailto:contact@elegantwelders.com">
             contact@elegantwelders.com
           </a>
         </li>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/phoneIcon.png")} alt="Phone icon" />
+          <FaPhone className={styles.icon} />
           <a href="tel:+25480425328">+254 804 25328</a>
         </li>
       </ul>

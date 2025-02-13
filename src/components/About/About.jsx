@@ -29,7 +29,7 @@ export const About = () => {
           </li>
           <li className={styles.aboutItem}>
             <img
-              src={getImageUrl("welding/equipmentIcon.png")}
+              src={getImageUrl("assets/about2.jpeg")}
               alt="Equipment icon"
             />
             <div className={styles.aboutItemText}>
@@ -42,7 +42,9 @@ export const About = () => {
           </li>
           <li className={styles.aboutItem}>
             <img
-              src={getImageUrl("welding/experienceIcon.png")}
+              src={getImageUrl(
+                "assets/WhatsApp Image 2025-02-12 at 20.18.03.jpeg.png"
+              )}
               alt="Experience icon"
             />
             <div className={styles.aboutItemText}>
